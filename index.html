@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Question 1</h1>
+    <input type="password" placeholder="Enter a Password" id="password" maxlength="10">
+    <button onclick="passGenerate()">Generator Password</button>
+    <h3>Your Password is:</h3>
+    <p id="passwordIs"></p>
+
+    <h1>Question 2</h1>
+    <input type="text" id="sentance" placeholder="write a sentance to reverse">
+    <button onclick="Reverse()">Reverse Sentance</button>
+    <br>
+    <textarea id="answer" cols="35" rows="8"></textarea>
+
+    <h1>Question 3</h1>
+    <input type="text" placeholder="Capitalize the first letter" id="capitalize">
+    <button onclick="Capitalize()">Capitalize the first letter</button>
+    <br>
+    <textarea id="letter" cols="40" rows="10"></textarea>
+
+    <h1>Question 4</h1>
+    <input type="text" placeholder="Enter a Sentance" id="sent">
+    <input type="text" placeholder="Enter a word" id="word">
+    <button onclick="wordFinder()">Word Finder</button>
+    <h3 id="result"></h3>   
+
+    <h1>Question 5</h1>
+    <input type="text" id="firstName" placeholder="Enter a First Name">
+    <input type="text" id="lastName" placeholder="Enter a Last Name">
+    <button onclick="ame()">Concatenation</button>
+    <br>
+    <textarea id="fullName" cols="30" rows="10"></textarea>
+
+    <script src="app.js"></script>
+</body>
+</html>
